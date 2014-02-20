@@ -1,11 +1,7 @@
 {
-  "name": "jsock",
-  "version": "0.0.3",
+  "name": "jprichardson-jsock",
   "description": "Easy JSON over sockets or streams.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jprichardson/jsock"
-  },
+  "version": "0.0.3",
   "keywords": [
     "JSON",
     "sockets",
@@ -16,20 +12,6 @@
     "websocket",
     "websockets"
   ],
-  "author": "JP Richardson <jprichardson@gmail.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": ""
-    }
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "testutil": "~0.6.0",
-    "nextflow": "~0.3.0"
-  },
   "main": "lib/jsock.js",
-  "scripts": {
-    "test": "mocha test"
-  }
+  "dependencies": {}
 }
